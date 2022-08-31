@@ -1,0 +1,395 @@
+
+.settings{
+    margin-top: 70px;
+    margin-bottom: 120px;
+    .staking-token{
+        position: relative;
+        margin-bottom: 30px;
+        .heading{
+            margin-bottom: 20px;
+            margin-left: 12px;
+            h6{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                color: #0B0E34;
+            }
+        }
+        .switch{
+            margin-bottom: 40px !important;
+            .custom-switch{
+                input{
+                    color: #F6C325;
+                    background-color: #F6C325;
+                }
+                label{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #0B0E34;
+                    padding-left: 20px;
+                }
+            }
+        }
+        .input-field{
+            margin-bottom: 30px;
+            p{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                color: #414469;
+                margin-bottom: 10px;
+            }
+            input{
+                width: 100%;
+                height: 57px;
+                padding-left: 17px;
+                &::placeholder{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #D7D7D7;
+                }
+            }
+            label{
+                cursor: pointer;
+            }
+            .upload{
+                background: #FFFFFF;
+                border: 1.5px dashed #E7E8EE;
+                border-radius: 10px;
+                width: 294px;
+                height: 176px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .upload-img{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                }
+            }
+            .text{
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                p{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px !important;
+                line-height: 17px;
+                text-align: center;
+                color: #C9C9C9;
+                margin-bottom: 0 !important;
+                margin-right: 30px;
+                &:last-child{
+                    margin-right: 0 !important;
+                }
+                span{
+                    color: #F6C325;
+                }
+                }
+            }
+            .k-color-picker, .k-colorpicker{
+                position: absolute;
+                top: 44px;
+                right: 24px;
+                background: transparent;
+                border: none;
+            }
+            .inner-input1{
+                position: absolute;
+                top: 122px;
+                right: 0px;
+            }
+        }
+        .saking-btn{
+            button{
+                padding: 16px 25px;
+                img{
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+    .other-detail{
+        
+        
+        .heading{
+            margin-bottom: 20px;
+            margin-left: 12px;
+            h6{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                color: #0B0E34;
+            }
+        }
+        .field{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            .btn-upload-logo{
+                padding: 19px 49px;
+                background: #FAFAFA;
+                border: 1.5px solid #E7E8EE;
+                border-radius: 10px;
+                margin-left: 30px;
+            }
+            .add-btn-logo{
+                background: transparent;
+                margin-left: 30px;
+            }
+        }
+        .input-field{
+           
+            margin-bottom: 30px;
+            p{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                color: #414469;
+                margin-bottom: 10px;
+            }
+            input{
+                width: 452px;
+                height: 57px;
+                padding-left: 17px;
+                &::placeholder{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #D7D7D7;
+                }
+            }
+            select{
+                width: 100%;
+                height: 57px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #D7D7D7;
+                border: 1.5px solid #E7E8EE;
+                border-radius: 10px;
+            }
+            
+        }
+        .another-social-btn{
+            button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 15px;
+                background: #FAFAFA;
+                border: 1.5px solid #E7E8EE !important;
+                border-radius: 10px;
+               
+                img{
+                    margin-right: 10px;
+                }
+                &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                }
+            }
+        }
+    }
+    .btn-create{
+        margin-top: 30px;
+        button{
+            padding: 19px 45px;
+        }
+        .btn-clear{
+            background: #FFFFFF;
+            border: 1px solid #E7E8EE;
+            border-radius: 10px;
+            margin-left: 18px;
+        }
+    }
+    .upload-btn-img{
+        width: 16px;
+        height: 16px;
+        border-radius: 2px;
+    }
+    .list-inline{
+        display: flex !important;
+    }
+    .btn-create{
+        margin-top: 30px;
+        button{
+            padding: 19px 45px;
+            font-weight: 700 !important;
+        }
+        .btn-clear{
+            background: #FFFFFF;
+            border: 1px solid #E7E8EE !important;
+            border-radius: 10px;
+            margin-left: 18px;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+                transition: all 0.7s;
+            }
+        }
+    }
+    .upload-img-url{
+        width: 25px;
+        height: 25px;
+    }
+    }
+    .apy{
+        position: relative;
+        .percent{
+            position: absolute;
+            top: 54px;
+            right: 17px;
+        }
+    }
+
+.project-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.padd-0{
+    padding: 0 !important;
+}
+.padd-l{
+    padding-left: 0 !important;
+}
+.padd-r{
+    padding-right: 0 !important;
+}
+.custom-control-input:checked~.custom-control-label::before{
+    background-color: white;
+}
+
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #000;;
+    border-color:grey;
+    background-color:#ffff;
+
+}
+.custom-switch .custom-control-input:checked~.custom-control-label::after {
+    background-color: #f6c325 !important;
+    -webkit-transform: translateX(0.75rem);
+    transform: translateX(0.75rem);
+}
+.switch .custom-switch .custom-control-label::before{
+    width: 40px;
+    height: 22px;
+    top: 1px !important;
+    border-radius: 100px;
+}
+.dkjfdkjfdfj{
+    margin-bottom: 40px;
+}
+.switch .custom-switch .custom-control-label::after{
+    width: 17px;
+    height: 17px;
+    top: 3px !important;
+}
+.switch .custom-switch .custom-control-input:checked~.custom-control-label::after{
+    transform: translateX(1.1rem);
+}
+.switch .custom-control-input:checked~.custom-control-label::before{
+    border-color: #f6c325 !important;
+}
+.custom-control-label{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0b0e34;
+    padding-left: 20px;
+}
+
+@media (max-width:1199px){
+    .project-box{
+        display: unset;
+    }
+}
+@media(max-width:991px){
+    .padd-l{
+        padding: 0 !important;
+    }
+    .settings .other-detail .field .btn-upload-logo{
+        margin-left: 0 !important;
+        margin-bottom: 30px;
+    }
+    .settings .other-detail .field .add-btn-logo{
+        margin-bottom: 32px !important;
+    }
+    .padd-r{
+        padding: 0!important;
+    }
+}
+@media(max-width:600px){
+    .create .pool-detail .input-field input{
+        width: 100%;
+    }
+    .settings .other-detail .input-field input{
+       
+    }
+}
+@media(max-width:560px){
+    .settings .other-detail .input-field input{
+       width: 382px;
+    }
+}
+@media(max-width:430px){
+    .create .staking-token .input-field input{
+        width: 100%;
+    }
+    .create .reward-token .input-field input{
+        width: 100%;
+    }
+    .create .staking-token .input-field .upload{
+        width: 100%;
+    }
+    .create .reward-token .input-field .upload{
+        width: 100%;
+    }
+    .settings .staking-token .input-field .upload{
+        width: 100%;
+    }
+    .settings .other-detail .input-field input{
+        width: 296px;
+     }
+     
+}
+@media(max-width:380px){
+    .create .btn-create .btn-clear{
+        margin: 0 !important;
+    }
+    .create .btn-create button{
+        margin-bottom: 10px;
+    }
+    .settings .other-detail .input-field input{
+        width: 232px;
+     }
+}
+@media(max-width:360px){
+    .settings .other-detail .input-field input{
+        width: 200px;
+     }
+     .settings .other-detail .field .add-btn-logo{
+         margin-left: 0 !important;
+     }
+}
+
+
+.settings .other-detail .field .btn-upload-logo{
+    margin-bottom: 0 !important;
+}
+
+.settings .other-detail .field .btn-upload-logo{
+    padding: 12px 49px !important;
+}
